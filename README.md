@@ -1,95 +1,155 @@
-📊 IBM Netflix EDA Project
+# 🎬 Netflix Dataset Exploratory Data Analysis (EDA)
 
-An Exploratory Data Analysis (EDA) project conducted as part of the IBM Data Science Professional Certificate.
-This analysis explores the Netflix dataset to uncover insights about content trends, genres, release years, ratings, and country distributions using Python’s data analysis and visualization tools.
+This project explores the **Netflix Titles Dataset** using Python. The objective is to clean the dataset, analyze different trends, and create visualizations to understand Netflix's content library.
 
-🔍 Project Overview
+---
 
-The goal of this project is to perform comprehensive data cleaning, transformation, and visualization on Netflix’s movie and TV show data.
-By exploring patterns and relationships within the dataset, the analysis aims to answer questions such as:
+## 📌 Features
 
-How has Netflix’s content evolved over time?
+- Cleaned missing and duplicate data
+- Performed Exploratory Data Analysis (EDA)
+- Compared Movies and TV Shows
+- Analyzed content by country
+- Explored content ratings
+- Analyzed release year trends
+- Visualized genre distribution
+- Exported the cleaned dataset
+- Created charts using Matplotlib
 
-Which countries produce the most content?
+---
 
-What are the most common genres and ratings?
+## 🛠️ Technologies Used
 
-How is Netflix’s library split between movies and TV shows?
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
-📂 Dataset
+---
 
-Source: Netflix Dataset on Kaggle
+## 📂 Project Structure
 
-Description: Contains information on Netflix’s catalog, including titles, directors, cast, country, release year, rating, duration, and genres.
+```
+Netflix-Dataset-EDA/
+│
+├── README.md
+├── Netflix_EDA.ipynb
+├── Netflix_EDA_Presentation.pptx
+├── netflix_titles.csv
+├── netflix_cleaned.csv
+│
+└── images/
+    ├── movies_vs_tvshows.png
+    ├── top_10_countries.png
+    ├── ratings_distribution.png
+    ├── release_year.png
+    └── genre_distribution.png
+```
 
-File Used: netflix_titles.csv
+---
 
-🧹 Data Preparation
+## 📊 Dataset
 
-Handled missing values and duplicates
+- **Original Dataset:** `netflix_titles.csv`
+- **Cleaned Dataset:** `netflix_cleaned.csv`
+- **Source:** Kaggle
+- **Records:** 8,800+
+- **Content Types:** Movies and TV Shows
 
-Performed data type conversion for consistency
+---
 
-Extracted release year, duration, and country features
+# 📈 Visualizations
 
-Created new derived columns for better visualization and analysis
+## 🎥 Movies vs TV Shows
 
-📊 Exploratory Analysis & Insights
+![Movies vs TV Shows](images/movies_vs_tvshows.png)
 
-Key findings and visualizations include:
+---
 
-📅 Growth trend of Netflix content over the years
+## 🌍 Top 10 Content Producing Countries
 
-🎬 Ratio of Movies vs TV Shows
+![Top Countries](images/top_10_countries.png)
 
-🌍 Top 10 countries producing the most Netflix titles
+---
 
-⭐ Most frequent genres and content ratings
+## ⭐ Content Rating Distribution
 
-⏳ Distribution of content durations and release patterns
+![Ratings Distribution](images/ratings_distribution.png)
 
-These insights help understand Netflix’s global strategy and audience focus.
+---
 
-🛠️ Tools & Libraries
-Category	Libraries
-Data Manipulation	Pandas, NumPy
-Visualization	Matplotlib, Seaborn, Plotly
-Environment	Jupyter Notebook
-Platform	IBM Data Science Environment (Coursera)
-📈 Outcomes
+## 📅 Content Added Over the Years
 
-Gained valuable insights into Netflix’s content strategy and trends.
+![Release Year](images/release_year.png)
 
-Developed skills in data wrangling, visualization, and storytelling.
+---
 
-Strengthened understanding of EDA best practices using Python.
+## 🎭 Genre Distribution
 
-🚀 How to Run the Project
+![Genre Distribution](images/genre_distribution.png)
 
-Clone this repository:
+---
 
-git clone https://github.com/urankit19/IBM_Netfllix_Eda_project.git
+## 🔍 Key Insights
 
+- Movies make up the majority of Netflix's content library.
+- The United States has the highest number of Netflix titles.
+- Netflix experienced rapid growth in content after 2015.
+- TV-MA is one of the most common content ratings.
+- Drama, International Movies, and Comedies are among the most popular genres.
 
-Navigate to the project folder:
+---
 
-cd IBM_Netflix_EDA_Project
+## ▶️ How to Run
 
+### Clone the repository
 
-Install required libraries:
+```bash
+git clone https://github.com/urankit19/Netflix-Dataset-EDA.git
+```
 
-pip install pandas numpy matplotlib seaborn plotly
+### Install dependencies
 
+```bash
+pip install pandas numpy matplotlib
+```
 
-Open the Jupyter Notebook:
+### Open the notebook
 
-jupyter notebook EDA_Netflix_Project.ipynb
+```bash
+jupyter notebook Netflix_EDA.ipynb
+```
 
+---
 
-Run the notebook cells to explore the analysis.
+## 📁 Files Included
 
-📚 Acknowledgments
+| File | Description |
+|------|-------------|
+| `Netflix_EDA.ipynb` | Jupyter Notebook containing the complete analysis |
+| `netflix_titles.csv` | Original Netflix dataset |
+| `netflix_cleaned.csv` | Cleaned dataset after preprocessing |
+| `Netflix_EDA_Presentation.pptx` | Project presentation |
+| `images/` | Charts and visualizations used in the analysis |
 
-IBM Data Science Professional Certificate (Coursera)
+---
 
-Kaggle Netflix Dataset by Shivam Bansal
+## 🚀 Future Improvements
+
+- Build an interactive dashboard using Plotly
+- Create a Power BI dashboard
+- Develop a movie recommendation system
+- Perform advanced statistical analysis
+
+---
+
+## 👨‍💻 Author
+
+**Ankit Raj**
+
+B.Tech Computer Science & Engineering
+
+---
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
